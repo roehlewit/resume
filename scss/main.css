@@ -184,12 +184,12 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .content {
-    margin-top: -4rem;
+    margin-top: -2rem;
     margin-bottom: 1rem;
   }
   .content .about {
     width: 95%;
-    padding: 3rem 1rem;
+    padding: 0rem 1rem 2rem 1rem;
   }
   .resume-imgs {
     width: 95%;
@@ -209,12 +209,9 @@
     font-size: 1.25rem;
     padding: 0.5rem;
   }
-  .pages .items p {
-    margin: auto;
-  }
   .content {
     width: 100%;
-    margin-top: -3rem;
+    margin-top: -2rem;
     margin-bottom: 1rem;
   }
   .content .about {
