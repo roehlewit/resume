@@ -103,7 +103,7 @@ const projectState = function (page) {
             <h5>HTML, CSS, Flex-box, Grid</h5>
         </div>
         <div class="view-project">
-            <a href="https://meanqueenband.com/" target="_blank"> <i class="far fa-eye"></i> Website</a>
+            <a href="http://meanqueenband.com/" target="_blank"> <i class="far fa-eye"></i> Website</a>
             <a href="https://github.com/roehlewit/mean-queen-landing" target="_blank"> <i class="fab fa-github"></i> Code</a>
         </div>
     </div>
