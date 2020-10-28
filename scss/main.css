@@ -1,0 +1,391 @@
+.content {
+  background: rgba(39, 39, 39, 0.8);
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
+
+.content .about {
+  padding: 3rem;
+  width: 70%;
+  margin: auto;
+}
+
+.content .about h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #3581b8;
+}
+
+.content .about h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+}
+
+.p-title {
+  text-align: center;
+  color: #3581b8;
+  font-size: 4rem;
+  font-weight: 300;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.project-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3rem 0;
+}
+
+.project-wrapper .project-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+  height: 800px;
+  margin: 1rem;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.project-wrapper .project-item h3,
+.project-wrapper .project-item h4,
+.project-wrapper .project-item h5 {
+  color: black;
+}
+
+.project-wrapper .project-item .project-imgs {
+  margin-top: 0;
+  height: 40%;
+}
+
+.project-wrapper .project-item .project-imgs img {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.project-wrapper .project-item .description {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.project-wrapper .project-item .description h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.project-wrapper .project-item .description h4 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.project-wrapper .project-item .view-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 0.1rem;
+}
+
+.project-wrapper .project-item .view-project a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding: 0.8rem;
+  color: #3581b8;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  font-size: 0.8rem;
+}
+
+.project-wrapper .project-item .view-project a:hover {
+  color: #e94f37;
+}
+
+.project-wrapper .project-item .view-project a i {
+  padding-bottom: 0.2rem;
+}
+
+.resume-imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.resume-imgs img {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1450px) {
+  .content {
+    margin-bottom: 3rem;
+  }
+  .content .about {
+    width: 85%;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content {
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+  }
+  .content .about {
+    width: 95%;
+    padding: 3rem 1rem;
+  }
+  .resume-imgs {
+    width: 95%;
+    padding: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contact-item i {
+    font-size: 1.5rem;
+  }
+  .contact-item p {
+    display: none;
+  }
+  .pages .items {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+  .pages .items p {
+    margin: auto;
+  }
+  .content {
+    width: 100%;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+  }
+  .content .about {
+    width: 95%;
+    padding: 1rem;
+  }
+  .content .about h1 {
+    font-size: 2rem;
+  }
+  .content .about h3 {
+    font-size: 0.8rem;
+  }
+  .p-title {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .project-item {
+    width: 100%;
+  }
+  .resume-imgs img {
+    width: 100%;
+    padding: .5rem;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url("../dist/img/background.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../dist/img/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-content {
+  min-height: calc(100vh - 60px);
+}
+
+.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #272727;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.contact .contact-item {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.contact .contact-item a {
+  color: #3581b8;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.contact .contact-item a:hover {
+  color: #e94f37;
+}
+
+.contact .contact-item a p {
+  margin-top: 0.5rem;
+}
+
+.contact .contact-item img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #e94f37;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  color: #3581b8;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.pages .items {
+  text-align: center;
+}
+
+.pages .items p {
+  margin-top: 0;
+}
+
+.pages .items a {
+  color: #3581b8;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.pages .items a:hover {
+  color: #e94f37;
+}
+
+.breadcrumb {
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+  color: #e94f37;
+}
+
+.breadcrumb i {
+  padding: 0rem 0.5rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #272727;
+  color: #3581b8;
+  font-size: .6rem;
+}
+
+footer p {
+  margin: 0.2rem;
+}
+
+footer p:first-of-type {
+  margin-bottom: 0.1rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+@media screen and (min-width: 769px) and (max-width: 1450px) {
+	.content {
+		margin-bottom: 3rem;
+
+		.about {
+			width: 85%;
+			padding: 2rem;
+		}
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.content {
+        margin-top: -4rem;
+		margin-bottom: 1rem;
+
+		.about {
+			width: 95%;
+			padding: 3rem 1rem;
+		}
+    }
+    
+    .resume-imgs {
+        width: 95%;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.contact-item {
+
+        i {
+            font-size: 1.5rem;
+        }
+
+		p {
+			display: none;
+		}
+	}
+
+	.pages {
+        
+
+		.items {
+            font-size: 1.25rem;
+            padding: 0.5rem;
+            
+            p {
+                margin: auto;
+            }
+		}
+	}
+
+	.content {
+        width: 100%;
+        margin-top: -3rem;
+		margin-bottom: 1rem;
+
+		.about {
+			width: 95%;
+			padding: 1rem;
+
+			h1 {
+				font-size: 2rem;
+			}
+
+			h3 {
+				font-size: 0.8rem;
+			}
+		}
+    }
+    
+    .p-title {
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    .resume-imgs {
+
+        img {
+            width: 100%;
+            padding: .5rem;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+$background-color: #272727;
+$primary-text-color: #f7f9f9;
+$link-color: #e94f37;
+$button-color: #3581b8;
+$border-color: #3581b8;
+
+@mixin link-basics {
+	color: $button-color;
+    text-decoration: none;
+	cursor: pointer;
+	transition: color 0.5s;
+    
+	&:hover {
+		color: $link-color;
+	}
+
+}
