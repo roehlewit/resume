@@ -141,7 +141,7 @@ const projectState = function (page) {
             <h5>HTML, CSS, JS</h5>
         </div>
         <div class="view-project">
-            <a href="https://roehlewitweb.com" target="_blank"> <i class="far fa-eye"></i> Website</a>
+            <a href="http://roehlewitweb.com" target="_blank"> <i class="far fa-eye"></i> Website</a>
             <a href="https://github.com/roehlewit/resume" target="_blank"> <i class="fab fa-github"></i> Code</a>
         </div>
     </div>
