@@ -122,8 +122,8 @@ const projectState = function (page) {
         <h5>HTML, CSS, JS</h5>
     </div>
     <div class="view-project">
-        <a href="https://roehlewit.github.io/movie_finder/"> <i class="far fa-eye"></i> Website</a>
-        <a href="https://github.com/roehlewit/movie_finder"> <i class="fab fa-github"></i> Code</a>
+        <a href="https://roehlewit.github.io/movie_finder/" target="_blank"> <i class="far fa-eye"></i> Website</a>
+        <a href="https://github.com/roehlewit/movie_finder" target="_blank"> <i class="fab fa-github"></i> Code</a>
     </div>
 </div>
     <div class="project-item">
@@ -141,8 +141,8 @@ const projectState = function (page) {
             <h5>HTML, CSS, JS</h5>
         </div>
         <div class="view-project">
-            <a href="https://.roehlewitweb.com"> <i class="far fa-eye"></i> Website</a>
-            <a href="https://github.com/roehlewit/resume"> <i class="fab fa-github"></i> Code</a>
+            <a href="https://.roehlewitweb.com" target="_blank"> <i class="far fa-eye"></i> Website</a>
+            <a href="https://github.com/roehlewit/resume" target="_blank"> <i class="fab fa-github"></i> Code</a>
         </div>
     </div>
  </div>
