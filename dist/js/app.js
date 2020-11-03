@@ -31,8 +31,8 @@ const homeState = function (page) {
 		<h3>
 			I moved from student to management in my previous career
 			because of my ability to learn quickly, collaborate
-			with a team, utilize my rescourcefulness, and employ
-			my strong work ethic. I am self-motvated and have
+			with a team, utilize my resourcefulness, and employ
+			my strong work ethic. I am self-motivated and have
 			trained myself in web development since late July,
 			2020 learning several tools to create web pages and
 			experiences. I appreciate your time to view my
