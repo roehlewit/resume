@@ -289,7 +289,6 @@ body {
 }
 
 .contact .contact-item a {
-  display: inline-block;
   color: #3581b8;
   text-decoration: none;
   cursor: pointer;
@@ -302,7 +301,7 @@ body {
 }
 
 .contact .contact-item a p {
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
 }
 
 .contact .contact-item img {
