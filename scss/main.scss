@@ -4,8 +4,6 @@
 @import 'resume';
 @import 'media';
 
-
-
 * {
 	box-sizing: border-box;
 }
@@ -47,6 +45,7 @@ body {
 		flex: 1;
 
 		a {
+			display: inline-block;
 			@include link-basics;
 
 			p {
@@ -82,7 +81,6 @@ body {
 
 		a {
 			@include link-basics;
-
 		}
 	}
 }
@@ -97,7 +95,6 @@ body {
 	}
 }
 
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -107,16 +104,13 @@ footer {
 	height: 60px;
 	background-color: $background-color;
 	color: $button-color;
-	font-size: .6rem;
+	font-size: 0.6rem;
 
-	p {  
+	p {
 		margin: 0.2rem;
 
-		&:first-of-type{
+		&:first-of-type {
 			margin-bottom: 0.1rem;
 		}
 	}
-
 }
-
-
